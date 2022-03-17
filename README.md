@@ -1,6 +1,6 @@
 # ens-cli
 
-This package only does one thing.
+CLI for interacting with the Ethereum Name Service.
 
 ## Installation
 
