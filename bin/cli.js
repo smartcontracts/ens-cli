@@ -3,10 +3,12 @@
 const { program } = require('commander')
 const { ethers } = require('ethers')
 
+const { version } = require('../package.json')
+
 program
   .name('ens')
   .description('CLI for interacting with the Ethereum Name Service')
-  .version('1.0.0')
+  .version(version)
 
 program
   .command('resolve <name>')
